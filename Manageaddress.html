@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Now</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- header -->
+    <header class="py-1 bg-pink-100 lg:bg-white shadow">
+        <div class="container flex justify-between items-center">
+            <div>
+                <a href="#">
+                    <h1 class="lg:text-3xl sm:text-2xl   font-bold pb-6 mt-3"><span class="text-danger">SURUZ</span>ZAMAN</h1>
+                </a>
+                </div>
+
+                    <div class="lg:flex w-full lg:max-w-lg xl:max-w-xl relative hidden">
+
+                        <span class="absolute left-4 top-3"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        
+                        <input placeholder="Search" class="w-full pl-12 py-3 focus:outline-none border border-r-0 rounded-l-md border-danger focus:border-danger px-3" type="text" name="" id="">
+                        <button class="bg-danger px-5 rounded-r-md hover:bg-transparent hover:border hover:border-danger">Search</button>
+                        
+                    </div>
+
+                <div>
+
+                <div class="flex items-center space-x-5">
+                    <a href="Wishlist.html" class="block text-center relative hover:text-danger">
+                        <span class="absolute text-white text-xs right-0 -top-1 flex justify-center items-center w-5 h-5 bg-danger rounded-lg">5</span>
+                        <div class="text-2xl ">
+                            <i class="fa-regular fa-heart"></i>
+                            
+                        </div>
+                        
+                        <div class="text-xs">Wish List</div>
+                        
+                    </a>
+                    <a href="Cart.html" class="sm:block text-center relative hover:text-danger hidden ">
+                        <span class="absolute text-white text-xs -right-3 -top-1 flex justify-center items-center w-5 h-5 bg-danger rounded-lg">2</span>
+                        <div class="text-2xl ">
+                            <i class="fas fa-shopping-bag"></i>
+                            
+                        </div>
+                        
+                        <div class="text-xs">Cart</div>
+                        
+                    </a>
+                    <a href="Manageaccount.html" class="block text-center relative hover:text-danger">
+                        
+                        <div class="text-2xl ">
+                            <i class="far fa-user"></i>
+                            
+                        </div>
+                        
+                        <div class="text-xs">Account</div>
+                        
+                    </a>
+                </div>
+                
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- navbar -->
+    <nav class="bg-gray-800 hidden md:block">
+
+        <div class="container">
+
+            <div class="flex">
+
+                <div class="bg-danger inline-block py-4 px-9 text-white text-md cursor-pointer relative group ">
+    
+                    <span><i class="fas fa-bars"></i></span>
+                    <span class="ml-2">All Categories</span>
+
+                    <div class="-ml-9 w-full mt-4 bg-white opacity-0 invisible group-hover:visible group-hover:opacity-100 text-gray-700 absolute transition duration-300">
+                        <a class=" flex items-center hover:bg-slate-300 transition space-x-4 px-5 py-3 border-b-2 border-dashed border-slate-300 hover:border-slate-400" href="#">
+                            <img class="w-5 h-5 object-contain" src="img/icons/bed.svg" alt="">
+                            <p>Bedroom</p>
+                        </a>
+
+                        <a class=" flex items-center hover:bg-slate-300 transition space-x-4 px-5 py-3 border-b-2 border-dashed border-slate-300 hover:border-slate-400" href="#">
+                            <img class="w-5 h-5 object-contain" src="img/icons/sofa.svg" alt="">
+                            <p>Sofa</p>
+                        </a>
+
+                        <a class=" flex items-center hover:bg-slate-300 transition space-x-4 px-5 py-3 border-b-2 border-dashed border-slate-300 hover:border-slate-400" href="#">
+                            <img class="w-5 h-5 object-contain" src="img/icons/office.svg" alt="">
+                            <p>Office</p>
+                        </a>
+
+                        <a class=" flex items-center hover:bg-slate-300 transition space-x-4 px-5 py-3 border-b-2 border-dashed border-slate-300 hover:border-slate-400" href="#">
+                            <img class="w-5 h-5 object-contain" src="img/icons/terrace.svg" alt="">
+                            <p>Outdoor</p>
+                        </a>
+
+                        <a class=" flex items-center hover:bg-slate-300 transition space-x-4 px-5 py-3 border-b-2 border-dashed border-slate-300 hover:border-slate-400" href="#">
+                            <img class="w-5 h-5 object-contain" src="img/icons/bed-2.svg" alt="">
+                            <p>Mattress</p>
+                        </a>
+
+                        <a class=" flex items-center hover:bg-slate-300 transition space-x-4 px-5 py-3 border-b-2 border-dashed border-slate-300 hover:border-slate-400" href="#">
+                            <img class="w-5 h-5 object-contain" src="img/icons/restaurant.svg" alt="">
+                            <p>Sofa</p>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+
+                <div class="text-white">
+                    <div>
+                        <ul class="flex items-center justify-center space-x-6 text-md py-4">
+                            <li class="ml-11"><a class="hover:text-orange-200 transition" href="index.html">Home</a></li>
+                            <li><a class="hover:text-orange-200 transition"  href="Shop.html">Shop</a></li>
+                            <li><a class="hover:text-orange-200 transition"  href="#">About Us</a></li>
+                            <li><a class="hover:text-orange-200 transition"  href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                        
+                </div>
+                <a class="text-white flex items-center justify-center text-md ml-auto hover:text-orange-200 transition" href="Rejister.html">Login/Register</a>
+            </div>
+        </div>
+    </nav>
+
+
+   <main class="mb-10">
+    <section class="container">
+        <div class="pb-8 pt-2">
+            <a href="index.html"><i class="fa-solid fa-house text-danger"></i></a>
+            <i class="fa-solid fa-greater-than mx-1"></i>
+            <span class="font-semibold">Manage Address</span>
+        </div>
+
+        <div class="grid grid-cols-4 gap-x-4">
+
+
+            <div class=" col-span-4 lg:col-span-1  gap-y-4">
+                <div class="flex space-x-3 items-center border p-3 shadow-md">
+                    <div>
+                        <img src="img/avatar.png" alt="">
+                    </div>
+                    <div>
+                        <p class="text-lg font-medium">Hello,</p>
+                        <p class="text-xl font-semibold">Russell Ahemd</p>
+                    </div>
+                </div>
+
+                <div class=" p-3 border shadow-md">
+
+                    <div class="flex border-b py-3 space-x-3">
+                        <div>
+                            <a href="#">
+                                <i class="far fa-address-card hover:text-danger transition"></i>
+                            </a>    
+                        </div>
+                        <div>
+                            <p class=""><a href="Manageaccount.html" class="hover:text-danger transition font-medium">Manage Account</a></p>
+                            <p><a href="Profileinfo.html" class="hover:text-danger transition">Profile information</a></p>
+                            <p><a href="Manageaddress.html" class="text-danger transition">Manage address</a></p>
+                            <p><a href="Changepassword.html" class="hover:text-danger transition">Change password</a></p>
+                        </div> 
+                    </div>
+
+                    <div class="flex py-3 border-b space-x-3">
+                        <div>
+                            <a href="#">
+                                <i class="fas fa-gift hover:text-danger transition"></i>
+                            </a>    
+                        </div>
+                        <div>
+                            <p class=""><a href="#" class="hover:text-danger transition font-medium">MY Order History</a></p>
+                            <p><a href="#" class="hover:text-danger transition">My returns</a></p>
+                            <p><a href="#" class="hover:text-danger transition">My concellations</a></p>
+                            <p><a href="#" class="hover:text-danger transition">My reviews</a></p>
+                        </div> 
+                    </div>
+
+                    <div class="flex border-b py-3 space-x-3">
+                        <div>
+                            <a href="#">
+                                <i class="far fa-credit-card hover:text-danger transition"></i>
+                            </a>    
+                        </div>
+                        <div>
+                            <p class=""><a href="#" class="hover:text-danger transition font-medium">Payment Methods</a></p>
+                            <p><a href="#" class="hover:text-danger transition">Voucher</a></p>
+                            
+                        </div> 
+                    </div>
+
+                    <div class="flex border-b py-3 space-x-3">
+                        <div>
+                            <a href="Wishlist.html">
+                                <i class="far fa-heart hover:text-danger"></i>
+                            </a>    
+                        </div>
+                        <div>
+                            <p class=""><a href="Wishlist.html" class="hover:text-danger  font-medium">My Wishlist</a></p>  
+                        </div> 
+                    </div>
+
+                    <div class="flex pt-3 space-x-3">
+                        <div>
+                            <a href="#">
+                                <i class="fas fa-sign-out-alt hover:text-danger transition"></i>
+                            </a>    
+                        </div>
+                        <div>
+                            <p class=""><a href="Wishlist.html" class="hover:text-danger transition font-medium">Logout</a></p>  
+                        </div> 
+                    </div>     
+                </div>
+            </div>
+
+
+            <div class="col-span-4 lg:col-span-3 space-y-4 mt-4 lg:mt-0">
+
+                <div class="border p-5 shadow-md">
+                    <h1 class="text-xl font-semibold">Manage Address</h1>
+
+                    <div class="flex space-x-3 mt-6 justify-between">
+                        <div class="w-1/2">
+                            <label for="fname" class="text-lg">Full Name</label><br>
+                            <input placeholder="Russell" class="border placeholder:text-black rounded-md focus:ring-1 ring-danger px-3 py-2 focus:outline-none w-full" type="text" name="" id="fname">
+                        </div>
+                        <div class="w-1/2">
+                            <label for="lname" class="text-lg">Phone Number</label><br>
+                            <input placeholder="+880xxxxxxxx" class="border placeholder:text-black rounded-md focus:ring-1 ring-danger px-3 py-2 focus:outline-none w-full" type="number" name="" id="lname">
+                        </div>
+                    </div>
+
+                    <div class="flex space-x-3 mt-5 justify-between">
+                        <div class="w-1/2">
+                            <label class="text-lg">Country</label><br>
+                            <select class="border rounded-md focus:ring-1 ring-danger px-3 py-2 focus:outline-none w-full" name="" id="">
+                                <option value="">Bangladesh</option>
+                                <option value="">America</option>
+                                <option value="">India</option>
+                            </select>
+                        </div>
+                        <div class="w-1/2">
+                            <label class="text-lg">Region</label><br>
+                            <select class="border rounded-md focus:ring-1 ring-danger px-3 py-2 focus:outline-none w-full" name="" id="">
+                                <option value="">Dhaka</option>
+                                <option value="">Bogura</option>
+                                <option value="">Cox's Bazar</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="flex space-x-3 mt-5 justify-between">
+                        <div class="w-1/2">
+                            <label class="text-lg">City</label><br>
+                            <select class="border rounded-md focus:ring-1 ring-danger px-3 py-2 focus:outline-none w-full" name="" id="">
+                                <option value="">Dhaka-North</option>
+                                <option value="">Dhaka-South</option>
+                            </select>
+                        </div>
+
+                        <div class="w-1/2">
+                            <label class="text-lg">Area</label><br>
+                            <select class="border rounded-md focus:ring-1 ring-danger px-3 py-2 focus:outline-none w-full" name="" id="">
+                                <option value="">Notun-Bazar</option>
+                                <option value="">Gulsan</option>
+                            </select>
+                        </div>
+                    </div>
+
+                        <div class="w-full mt-4 pb-5">
+                            <label for="address">Address</label>
+                            <input type="text" class="border placeholder:text-black rounded-md focus:ring-1 ring-danger px-3 py-2 focus:outline-none w-full" placeholder="Badda Notun Bazar" name="" id="address">
+                        </div>
+                    
+
+                    
+
+                    <button class="text-white bg-danger py-2 px-4 rounded-md hover:bg-red-600 transition">
+                        SAVE CHANGE
+                    </button>
+
+                </div>
+            
+
+            </div>
+
+            
+
+        </div>
+
+        
+    </section>
+   </main>
+
+
+
+    <footer class="lg:pb-10 pt-8 border-t">
+        <div class="container">
+            <div class="grid lg:grid-cols-2 md:gap-x-5 lg:gap-x-28 text-center sm:text-start">
+                <div class="mb-5">
+                    <h1 class="text-3xl font-bold pb-6"><span class="text-danger">SURUZ</span>ZAMAN</h1>
+                    <p class="text-xl pb-8">
+                        Lorem ipsum dolor sit amet Lorem, ipsum dolor. <br> adipisicing elit. Recusandae, quo.
+                    </p>
+                    <span class="flex justify-center sm:justify-start  space-x-5">
+                        <a href="#"><i class="fa-brands fa-facebook text-3xl hover:rotate-[360deg] duration-700 hover:scale-110 hover:text-danger"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram text-3xl hover:rotate-[360deg] duration-700 hover:scale-110 hover:text-danger"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin text-3xl hover:rotate-[360deg] duration-700 hover:scale-110 hover:text-danger"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-whatsapp text-3xl hover:rotate-[360deg] duration-700 hover:scale-110 hover:text-danger"></i></a>
+                    </span>
+                </div>
+                <div class="grid md:grid-cols-2 items-center justify-center sm:justify-between gap-5  md:gap-x-32 lg:-ml-20">
+
+                    <div class="sm:flex sm:space-x-20 lg:space-x-5 xl:space-x-20">
+                        <div>
+                            <h1 class="font-semibold text-xl pb-3">SOLUTIONS</h1>
+                            <p class="text-lg pb-3"><a href="#">Marketing</a></p>
+                            <p class="text-lg pb-3"><a href="#">Analytics</a></p>
+                            <p class="text-lg pb-3"><a href="#">Commerce</a></p>
+                            <p class="text-lg"><a href="#">Insights</a></p>
+                        </div>
+                        <div>
+                            <h1 class="font-semibold text-xl pb-3 mt-4 sm:mt-0">SUPPORT</h1>
+                            <p class="text-lg pb-3"><a href="#">Pricing</a></p>
+                            <p class="text-lg pb-3"><a href="#">Documentation</a></p>
+                            <p class="text-lg pb-3"><a href="#">Guides</a></p>
+                            <p class="text-lg"><a href="#">API Status</a></p>
+                        </div>   
+                    </div>
+    
+                    <div class="sm:flex sm:space-x-20 lg:space-x-5 xl:space-x-20 ">
+                        <div>
+                            <h1 class="font-semibold text-xl pb-3 mt-4 sm:mt-0">COMPANY</h1>
+                            <p class="text-lg pb-3"><a href="#">About</a></p>
+                            <p class="text-lg pb-3"><a href="#">Blog</a></p>
+                            <p class="text-lg pb-3"><a href="#">Jobs</a></p>
+                            <p class="text-lg"><a href="#">Press</a></p>
+                        </div>
+                        <div>
+                            <h1 class="font-semibold text-xl pb-3 mt-4 sm:mt-0">LEGAL</h1>
+                            <p class="text-lg pb-3"><a href="#">Claim</a></p>
+                            <p class="text-lg pb-3"><a href="#">Privacy</a></p>
+                            <p class="text-lg pb-3"><a href="#">Policy</a></p>
+                            <p class="text-lg"><a href="#">Terms</a></p>
+                        </div>   
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <div class="bg-gray-800 text-white py-4 invisible opacity-0 lg:visible lg:opacity-100">
+        <div class="container flex justify-between items-center">
+            <div><p class="text-">© SURUZZAMAN - All Rights Reserved</p></div>
+            <div class="w-64">
+                <img class="w-full" src="img/methods.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>

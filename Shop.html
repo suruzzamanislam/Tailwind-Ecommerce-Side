@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Now</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <!-- header -->
+    <header class="py-1 bg-pink-100 lg:bg-white shadow">
+        <div class="container flex justify-between items-center">
+            <div>
+                <a href="#">
+                    <h1 class="lg:text-3xl sm:text-2xl   font-bold pb-6 mt-3"><span class="text-danger">SURUZ</span>ZAMAN</h1>
+                </a>
+                </div>
+
+                    <div class="lg:flex w-full lg:max-w-lg xl:max-w-xl relative hidden">
+
+                        <span class="absolute left-4 top-3"><i class="fa-solid fa-magnifying-glass"></i></span>
+                        
+                        <input placeholder="Search" class="w-full pl-12 py-3 focus:outline-none border border-r-0 rounded-l-md border-danger focus:border-danger px-3" type="text" name="" id="">
+                        <button class="bg-danger px-5 rounded-r-md hover:bg-transparent hover:border hover:border-danger">Search</button>
+                        
+                    </div>
+
+                <div>
+
+                <div class="flex items-center space-x-5">
+                    <a href="Wishlist.html" class="block text-center relative hover:text-danger">
+                        <span class="absolute text-white text-xs right-0 -top-1 flex justify-center items-center w-5 h-5 bg-danger rounded-lg">5</span>
+                        <div class="text-2xl ">
+                            <i class="fa-regular fa-heart"></i>
+                            
+                        </div>
+                        
+                        <div class="text-xs">Wish List</div>
+                        
+                    </a>
+                    <a href="Cart.html" class="sm:block text-center relative hover:text-danger hidden ">
+                        <span class="absolute text-white text-xs -right-3 -top-1 flex justify-center items-center w-5 h-5 bg-danger rounded-lg">2</span>
+                        <div class="text-2xl ">
+                            <i class="fas fa-shopping-bag"></i>
+                            
+                        </div>
+                        
+                        <div class="text-xs">Cart</div>
+                        
+                    </a>
+                    <a href="Manageaccount.html" class="block text-center relative hover:text-danger">
+                        
+                        <div class="text-2xl ">
+                            <i class="far fa-user"></i>
+                            
+                        </div>
+                        
+                        <div class="text-xs">Account</div>
+                        
+                    </a>
+                </div>
+                
+            </div>
+
+        </div>
+    </header>
+
+
+    <!-- navbar -->
+    <nav class="bg-gray-800 hidden md:block">
+
+        <div class="container">
+
+            <div class="flex">
+
+                <div class="bg-danger inline-block py-4 px-9 text-white text-md cursor-pointer relative group ">
+    
+                    <span><i class="fas fa-bars"></i></span>
+                    <span class="ml-2">All Categories</span>
+
+                    <div class="-ml-9 w-full z-20 mt-4 bg-white opacity-0 invisible group-hover:visible group-hover:opacity-100 text-gray-700 absolute transition duration-300">
+                        <a class=" flex items-center hover:bg-slate-300 transition space-x-4 px-5 py-3 border-b-2 border-dashed border-slate-300 hover:border-slate-400" href="#">
+                            <img class="w-5 h-5 object-contain" src="img/icons/bed.svg" alt="">
+                            <p>Bedroom</p>
+                        </a>
+
+                        <a class=" flex items-center hover:bg-slate-300 transition space-x-4 px-5 py-3 border-b-2 border-dashed border-slate-300 hover:border-slate-400" href="#">
+                            <img class="w-5 h-5 object-contain" src="img/icons/sofa.svg" alt="">
+                            <p>Sofa</p>
+                        </a>
+
+                        <a class=" flex items-center hover:bg-slate-300 transition space-x-4 px-5 py-3 border-b-2 border-dashed border-slate-300 hover:border-slate-400" href="#">
+                            <img class="w-5 h-5 object-contain" src="img/icons/office.svg" alt="">
+                            <p>Office</p>
+                        </a>
+
+                        <a class=" flex items-center hover:bg-slate-300 transition space-x-4 px-5 py-3 border-b-2 border-dashed border-slate-300 hover:border-slate-400" href="#">
+                            <img class="w-5 h-5 object-contain" src="img/icons/terrace.svg" alt="">
+                            <p>Outdoor</p>
+                        </a>
+
+                        <a class=" flex items-center hover:bg-slate-300 transition space-x-4 px-5 py-3 border-b-2 border-dashed border-slate-300 hover:border-slate-400" href="#">
+                            <img class="w-5 h-5 object-contain" src="img/icons/bed-2.svg" alt="">
+                            <p>Mattress</p>
+                        </a>
+
+                        <a class=" flex items-center hover:bg-slate-300 transition space-x-4 px-5 py-3 border-b-2 border-dashed border-slate-300 hover:border-slate-400" href="#">
+                            <img class="w-5 h-5 object-contain" src="img/icons/restaurant.svg" alt="">
+                            <p>Sofa</p>
+                        </a>
+                        
+                    </div>
+                    
+                </div>
+
+                <div class="text-white">
+                    <div>
+                        <ul class="flex items-center justify-center space-x-6 text-md py-4">
+                            <li class="ml-11"><a class="hover:text-orange-200 transition" href="index.html">Home</a></li>
+                            <li><a class="text-orange-200 transition"  href="#">Shop</a></li>
+                            <li><a class="hover:text-orange-200 transition"  href="#">About Us</a></li>
+                            <li><a class="hover:text-orange-200 transition"  href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                        
+                </div>
+                <a class="text-white flex items-center justify-center text-md ml-auto hover:text-orange-200 transition" href="Rejister.html">Login/Register</a>
+            </div>
+        </div>
+    </nav>
+
+
+   <main class="mb-10">
+    <section class="container">
+        <div class="pb-4 pt-2">
+            <a href="index.html"><i class="fa-solid fa-house text-danger"></i></a>
+            <i class="fa-solid fa-greater-than mx-1"></i>
+            <span class="font-semibold">Shop</span>
+        </div>
+
+        <div class="grid grid-cols-4 gap-x-6">
+
+            <div class="border absolute lg:relative h-[620px] bg-gray-300 z-10 lg:bg-white p-3">
+                <!-- single div -->
+                <div class="border-b pb-3">
+                    <h1 class="md:text-lg lg:text-xl  font-bold">CATEGORIES</h1>
+                    <div class="pt-2 flex justify-between">
+                        <div class="flex">
+                            <input class="accent-danger mr-2" type="checkbox" name="" id="bed">
+                            <label for="bed" class="cursor-pointer">Bedroom</label>
+                        </div>
+                        <span class="invisible sm:visible">(15)</span>
+                    </div>
+    
+    
+                    <div class=" flex justify-between">
+                        <div class="flex">
+                            <input class="accent-danger mr-2" type="checkbox" name="" id="sofa">
+                            <label for="sofa" class="cursor-pointer">Sofa</label>
+                        </div>
+                        <span class="invisible sm:visible">(17)</span>
+                    </div>
+    
+    
+                    <div class=" flex justify-between">
+                        <div class="flex">
+                            <input class="accent-danger mr-2" type="checkbox" name="" id="off">
+                            <label for="off" class="cursor-pointer">Office</label>
+                        </div>
+                        <span class="invisible sm:visible">(21)</span>
+                    </div>
+    
+    
+                    <div class=" flex justify-between">
+                        <div class="flex">
+                            <input class="accent-danger mr-2" type="checkbox" name="" id="out">
+                            <label for="out" class="cursor-pointer">Outdoor</label>
+                        </div>
+                        <span class="invisible sm:visible">(23)</span>
+                    </div>
+                </div>
+
+                <!-- single div -->
+                <div class="border-b pb-3 mt-2">
+                    <h1 class="md:text-lg lg:text-xl  font-bold">BRANDS</h1>
+                    <div class="pt-2 flex justify-between">
+                        <div class="flex">
+                            <input class="accent-danger mr-2" type="checkbox" name="" id="dom">
+                            <label for="dom" class="cursor-pointer">Dominik</label>
+                        </div>
+                        <span class="invisible sm:visible">(08)</span>
+                    </div>
+    
+    
+                    <div class=" flex justify-between">
+                        <div class="flex">
+                            <input class="accent-danger mr-2" type="checkbox" name="" id="kari">
+                            <label for="kari" class="cursor-pointer">Kari</label>
+                        </div>
+                        <span class="invisible sm:visible">(05)</span>
+                    </div>
+    
+    
+                    <div class=" flex justify-between">
+                        <div class="flex">
+                            <input class="accent-danger mr-2" type="checkbox" name="" id="max">
+                            <label for="max" class="cursor-pointer">Maxing</label>
+                        </div>
+                        <span class="invisible sm:visible">(10)</span>
+                    </div>
+    
+    
+                    <div class=" flex justify-between">
+                        <div class="flex">
+                            <input class="accent-danger mr-2" type="checkbox" name="" id="erm">
+                            <label for="erm" class="cursor-pointer">Ermest</label>
+                        </div>
+                        <span class="invisible sm:visible">(03)</span>
+                    </div>
+                </div>
+                <!-- single div -->
+                <div class="border-b pb-4 mt-2">
+                    <h1 class="md:text-lg lg:text-xl  font-bold">PRICE</h1>
+                    
+                    <div class="md:flex justify-between mt-3">
+                        <input class="border md:mb-0 mb-2  border-black ring-danger focus:border-none focus:outline-none focus:ring-1 pl-3 w-24 rounded-md py-1 " type="text" placeholder="max" name="" id="">
+                        <span class="hidden md:block">-</span>
+                        <input class="border border-black ring-danger focus:border-none focus:outline-none focus:ring-1 pl-3 w-24 rounded-md py-1 " type="text" placeholder="min" name="" id="">                        
+                    </div>
+
+                </div>
+
+                <!-- single div -->
+                <div class="border-b pb-4 mt-2">
+                    <h1 class="md:text-lg lg:text-xl  font-bold">SIZE</h1>
+
+                    <div class="flex mt-3 gap-x-3 ">
+                        <button type="text" class="focus:bg-danger w-8 border border-black p-1 rounded-md ">XS</button>
+                        <button type="text" class="focus:bg-danger w-8 border border-black p-1 rounded-md ">S</button>
+                        <button type="text" class="focus:bg-danger w-8 border border-black p-1 rounded-md ">M</button>
+                        <button type="text" class="focus:bg-danger w-8 border border-black p-1 rounded-md ">XL</button>
+                     </div>
+                    
+                        
+                </div>
+
+                <!-- single div -->
+                <div class="pb-3 mt-2">
+                    <h1 class="md:text-lg lg:text-xl  font-bold">COLOR</h1>
+
+                    <div class="flex mt-3 gap-x-3">
+                        <button type="text" class="focus:ring ring-danger h-6 bg-red-800 w-6 border border-black p-1 rounded-md "></button>
+                        <button type="text" class="focus:ring ring-danger h-6 bg-purple-600 w-6 border border-black p-1 rounded-md "></button>
+                        <button type="text" class="focus:ring ring-danger h-6 bg-orange-400 w-6 border border-black p-1 rounded-md "></button>
+                        <button type="text" class="focus:ring ring-danger h-6 bg-pink-500 w-6 border border-black p-1 rounded-md "></button>
+                     </div>                     
+                </div>               
+            </div>
+
+            
+
+
+            <div class="col-span-4 lg:col-span-3">
+                <div class="">
+                    <div class="flex justify-between">
+                        <div>
+                            <select class="py-1 px-3 border mb-3 outline-none" name="" id="">
+                                <option>Default sorting</option>
+                                <option>Price low-high</option>
+                                <option>Price high-low</option>
+                                <option>Latest product</option>
+                            </select>
+                        </div>
+                        
+                        <div class="flex space-x-4">
+                            <i class="fas fa-th text-2xl text-danger cursor-pointer"></i>
+                            <i class="fa-solid fa-bars text-2xl cursor-pointer"></i>
+                        </div>
+                    </div>
+    
+                </div>
+
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+
+                    <div class="shadow-xl rounded-t-md group">
+                        <div class="relative">
+                            <img src="img/products/product8.jpg" class="w-full" alt="">
+                            <div class="absolute group-hover:bg-gray-500    group-hover:bg-opacity-50 opacity-0 group-hover:opacity-100 flex     gap-2 items-center justify-center inset-0">
+                                <a href="#" class="w-9 h-9 hover:bg-gray-500 transition text-white  bg-danger rounded-full flex item justify-center text-xl">
+                                    <i class="fa-solid fa-magnifying-glass flex items-center justify-center"></i>
+                                </a>
+                                <a href="#" class="w-9 h-9 hover:bg-gray-500 transition text-white  bg-danger rounded-full flex item justify-center text-xl">
+                                    <i class="fa-regular fa-heart flex items-center justify-center"></i>
+                                </a>
+                            </div>
+                            
+                            
+                        </div>
+    
+                        <div class="pl-4">
+    
+                            <h1 class="font-medium text-2xl py-2">GUYER CHAIR</h1>
+                            <span class="text-xl font-bold text-danger mr-3">$45.00</span><span class="line-through">$50.00</span>
+                            <p class="text-orange-500">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <span class="text-gray-500">(150)</span>
+                                </p>
+                            </div>
+                            <a href="#" class="w-full block mt-5 py-1 bg-danger text-white text-center hover:bg-transparent hover:text-danger hover:border border-danger transition rounded-b-md">Add to cart</a>
+                    </div>
+    
+                    <div class="shadow-xl rounded-t-md group">
+                        <div class="relative">
+                            <img src="img/products/product7.jpg" class="w-full" alt="">
+                            <div class="absolute group-hover:bg-gray-500    group-hover:bg-opacity-50 opacity-0 group-hover:opacity-100 flex     gap-2 items-center justify-center inset-0">
+                                <a href="#" class="w-9 h-9 hover:bg-gray-500 transition text-white  bg-danger rounded-full flex item justify-center text-xl">
+                                    <i class="fa-solid fa-magnifying-glass flex items-center justify-center"></i>
+                                </a>
+                                <a href="#" class="w-9 h-9 hover:bg-gray-500 transition text-white  bg-danger rounded-full flex item justify-center text-xl">
+                                    <i class="fa-regular fa-heart flex items-center justify-center"></i>
+                                </a>
+                            </div>
+                            
+                            
+                        </div>
+    
+                        <div class="pl-4">
+    
+                            <h1 class="font-medium text-2xl py-2">DOUBLE CHAIR</h1>
+                            <span class="text-xl font-bold text-danger mr-3">$100.00</span><span class="line-through">$120.00</span>
+                            <p class="text-orange-500">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <span class="text-gray-500">(150)</span>
+                                </p>
+                            </div>
+                            <a href="#" class="w-full block mt-5 py-1 bg-danger text-white text-center hover:bg-transparent hover:text-danger hover:border border-danger transition rounded-b-md">Add to cart</a>
+                    </div>
+                    <div class="shadow-xl rounded-t-md group">
+                        <div class="relative">
+                            <img src="img/products/product6.jpg" class="w-full" alt="">
+                            <div class="absolute group-hover:bg-gray-500    group-hover:bg-opacity-50 opacity-0 group-hover:opacity-100 flex     gap-2 items-center justify-center inset-0">
+                                <a href="#" class="w-9 h-9 hover:bg-gray-500 transition text-white  bg-danger rounded-full flex item justify-center text-xl">
+                                    <i class="fa-solid fa-magnifying-glass flex items-center justify-center"></i>
+                                </a>
+                                <a href="#" class="w-9 h-9 hover:bg-gray-500 transition text-white  bg-danger rounded-full flex item justify-center text-xl">
+                                    <i class="fa-regular fa-heart flex items-center justify-center"></i>
+                                </a>
+                            </div>
+                            
+                            
+                        </div>
+    
+                        <div class="pl-4">
+    
+                            <h1 class="font-medium text-2xl py-2">GUYER CHAIR</h1>
+                            <span class="text-xl font-bold text-danger mr-3">$90.00</span><span class="line-through">$100.00</span>
+                            <p class="text-orange-500">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <span class="text-gray-500">(150)</span>
+                                </p>
+                            </div>
+                            <a href="#" class="w-full block mt-5 py-1 bg-danger text-white text-center hover:bg-transparent hover:text-danger hover:border border-danger transition rounded-b-md">Add to cart</a>
+                    </div>
+                    <div class="shadow-xl rounded-t-md group">
+                        <div class="relative">
+                            <img src="img/products/product8.jpg" class="w-full" alt="">
+                            <div class="absolute group-hover:bg-gray-500    group-hover:bg-opacity-50 opacity-0 group-hover:opacity-100 flex     gap-2 items-center justify-center inset-0">
+                                <a href="#" class="w-9 h-9 hover:bg-gray-500 transition text-white  bg-danger rounded-full flex item justify-center text-xl">
+                                    <i class="fa-solid fa-magnifying-glass flex items-center justify-center"></i>
+                                </a>
+                                <a href="#" class="w-9 h-9 hover:bg-gray-500 transition text-white  bg-danger rounded-full flex item justify-center text-xl">
+                                    <i class="fa-regular fa-heart flex items-center justify-center"></i>
+                                </a>
+                            </div>
+                            
+                            
+                        </div>
+    
+                        <div class="pl-4">
+    
+                            <h1 class="font-medium text-2xl py-2">GUYER CHAIR</h1>
+                            <span class="text-xl font-bold text-danger mr-3">$45.00</span><span class="line-through">$50.00</span>
+                            <p class="text-orange-500">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <span class="text-gray-500">(150)</span>
+                                </p>
+                            </div>
+                            <a href="#" class="w-full block mt-5 py-1 bg-danger text-white text-center hover:bg-transparent hover:text-danger hover:border border-danger transition rounded-b-md">Add to cart</a>
+                    </div>
+    
+                    <div class="shadow-xl rounded-t-md group">
+                        <div class="relative">
+                            <img src="img/products/product7.jpg" class="w-full" alt="">
+                            <div class="absolute group-hover:bg-gray-500    group-hover:bg-opacity-50 opacity-0 group-hover:opacity-100 flex     gap-2 items-center justify-center inset-0">
+                                <a href="#" class="w-9 h-9 hover:bg-gray-500 transition text-white  bg-danger rounded-full flex item justify-center text-xl">
+                                    <i class="fa-solid fa-magnifying-glass flex items-center justify-center"></i>
+                                </a>
+                                <a href="#" class="w-9 h-9 hover:bg-gray-500 transition text-white  bg-danger rounded-full flex item justify-center text-xl">
+                                    <i class="fa-regular fa-heart flex items-center justify-center"></i>
+                                </a>
+                            </div>
+                            
+                            
+                        </div>
+    
+                        <div class="pl-4">
+    
+                            <h1 class="font-medium text-2xl py-2">DOUBLE CHAIR</h1>
+                            <span class="text-xl font-bold text-danger mr-3">$100.00</span><span class="line-through">$120.00</span>
+                            <p class="text-orange-500">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <span class="text-gray-500">(150)</span>
+                                </p>
+                            </div>
+                            <a href="#" class="w-full block mt-5 py-1 bg-danger text-white text-center hover:bg-transparent hover:text-danger hover:border border-danger transition rounded-b-md">Add to cart</a>
+                    </div>
+                    <div class="shadow-xl rounded-t-md group">
+                        <div class="relative">
+                            <img src="img/products/product6.jpg" class="w-full" alt="">
+                            <div class="absolute group-hover:bg-gray-500    group-hover:bg-opacity-50 opacity-0 group-hover:opacity-100 flex     gap-2 items-center justify-center inset-0">
+                                <a href="#" class="w-9 h-9 hover:bg-gray-500 transition text-white  bg-danger rounded-full flex item justify-center text-xl">
+                                    <i class="fa-solid fa-magnifying-glass flex items-center justify-center"></i>
+                                </a>
+                                <a href="#" class="w-9 h-9 hover:bg-gray-500 transition text-white  bg-danger rounded-full flex item justify-center text-xl">
+                                    <i class="fa-regular fa-heart flex items-center justify-center"></i>
+                                </a>
+                            </div>
+                            
+                            
+                        </div>
+    
+                        <div class="pl-4">
+    
+                            <h1 class="font-medium text-2xl py-2">GUYER CHAIR</h1>
+                            <span class="text-xl font-bold text-danger mr-3">$90.00</span><span class="line-through">$100.00</span>
+                            <p class="text-orange-500">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-regular fa-star-half-stroke"></i>
+                                <span class="text-gray-500">(150)</span>
+                                </p>
+                            </div>
+                            <a href="#" class="w-full block mt-5 py-1 bg-danger text-white text-center hover:bg-transparent hover:text-danger hover:border border-danger transition rounded-b-md">Add to cart</a>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+   </main>
+
+
+
+    <footer class="lg:pb-10 pt-8 border-t">
+        <div class="container">
+            <div class="grid lg:grid-cols-2 md:gap-x-5 lg:gap-x-28 text-center sm:text-start">
+                <div class="mb-5">
+                    <h1 class="text-3xl font-bold pb-6"><span class="text-danger">SURUZ</span>ZAMAN</h1>
+                    <p class="text-xl pb-8">
+                        Lorem ipsum dolor sit amet Lorem, ipsum dolor. <br> adipisicing elit. Recusandae, quo.
+                    </p>
+                    <span class="flex justify-center sm:justify-start  space-x-5">
+                        <a href="#"><i class="fa-brands fa-facebook text-3xl hover:rotate-[360deg] duration-700 hover:scale-110 hover:text-danger"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram text-3xl hover:rotate-[360deg] duration-700 hover:scale-110 hover:text-danger"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin text-3xl hover:rotate-[360deg] duration-700 hover:scale-110 hover:text-danger"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-whatsapp text-3xl hover:rotate-[360deg] duration-700 hover:scale-110 hover:text-danger"></i></a>
+                    </span>
+                </div>
+                <div class="grid md:grid-cols-2 items-center justify-center sm:justify-between gap-5  md:gap-x-32 lg:-ml-20">
+
+                    <div class="sm:flex sm:space-x-20 lg:space-x-5 xl:space-x-20">
+                        <div>
+                            <h1 class="font-semibold text-xl pb-3">SOLUTIONS</h1>
+                            <p class="text-lg pb-3"><a href="#">Marketing</a></p>
+                            <p class="text-lg pb-3"><a href="#">Analytics</a></p>
+                            <p class="text-lg pb-3"><a href="#">Commerce</a></p>
+                            <p class="text-lg"><a href="#">Insights</a></p>
+                        </div>
+                        <div>
+                            <h1 class="font-semibold text-xl pb-3 mt-4 sm:mt-0">SUPPORT</h1>
+                            <p class="text-lg pb-3"><a href="#">Pricing</a></p>
+                            <p class="text-lg pb-3"><a href="#">Documentation</a></p>
+                            <p class="text-lg pb-3"><a href="#">Guides</a></p>
+                            <p class="text-lg"><a href="#">API Status</a></p>
+                        </div>   
+                    </div>
+    
+                    <div class="sm:flex sm:space-x-20 lg:space-x-5 xl:space-x-20 ">
+                        <div>
+                            <h1 class="font-semibold text-xl pb-3 mt-4 sm:mt-0">COMPANY</h1>
+                            <p class="text-lg pb-3"><a href="#">About</a></p>
+                            <p class="text-lg pb-3"><a href="#">Blog</a></p>
+                            <p class="text-lg pb-3"><a href="#">Jobs</a></p>
+                            <p class="text-lg"><a href="#">Press</a></p>
+                        </div>
+                        <div>
+                            <h1 class="font-semibold text-xl pb-3 mt-4 sm:mt-0">LEGAL</h1>
+                            <p class="text-lg pb-3"><a href="#">Claim</a></p>
+                            <p class="text-lg pb-3"><a href="#">Privacy</a></p>
+                            <p class="text-lg pb-3"><a href="#">Policy</a></p>
+                            <p class="text-lg"><a href="#">Terms</a></p>
+                        </div>   
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
+
+    <div class="bg-gray-800 text-white py-4 invisible opacity-0 lg:visible lg:opacity-100">
+        <div class="container flex justify-between items-center">
+            <div><p class="text-">© SURUZZAMAN - All Rights Reserved</p></div>
+            <div class="w-64">
+                <img class="w-full" src="img/methods.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+
+</body>
+</html>
